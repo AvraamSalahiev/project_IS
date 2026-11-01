@@ -1,0 +1,19 @@
+# Конфигурация развёртывания «Электронного дневника»
+app:
+  name: e-diary
+  version: 0.1.0
+  port: 8080
+
+database:
+  engine: postgresql
+  host: localhost
+  port: 5432
+  name: ediary
+
+integration:
+  1c_exchange: true
+  sync_schedule: "0 2 * * *"   # ночная синхронизация в 02:00
+
+backup:
+  enabled: true
+  keep_days: 30
