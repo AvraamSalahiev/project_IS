@@ -7,7 +7,8 @@
 ```
 project_IS/
 ├── docs/            # проектная документация
-│   └── requirements.md
+│   ├── requirements.md
+│   └── architecture.md
 ├── src/             # код и конфигурации
 │   └── config.yaml
 ├── tests/           # тестовые материалы
